@@ -15,7 +15,7 @@ C:/Users/gn01792218/OneDrive/桌面/我的專案/sideProject/unit專案/Realm Ru
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8608
+10094
 Successfully changed project path to: C:/Users/gn01792218/OneDrive/桌面/我的專案/sideProject/unit專案/Realm Rush
 C:/Users/gn01792218/OneDrive/桌面/我的專案/sideProject/unit專案/Realm Rush
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/gn01792218/OneDrive/桌面/我的專案/sideProject/unit專案/Realm Ru
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32072] Host "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 1914077765 [EditorId] 1914077765 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34892] Host "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 1357348983 [EditorId] 1357348983 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32072] Host "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 1914077765 [EditorId] 1914077765 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34892] Host "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 1357348983 [EditorId] 1357348983 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path D:/Program Files/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003731 seconds.
-- Loaded All Assemblies, in  0.496 seconds
+Registered in 0.003611 seconds.
+- Loaded All Assemblies, in  0.457 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.287 seconds
+- Finished resetting the current domain, in  0.325 seconds
 Domain Reload Profiling: 783ms
-	BeginReloadAssembly (170ms)
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (171ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (287ms)
+	FinalizeReload (326ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
+		SetupLoadedEditorAssemblies (244ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (150ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,319 +118,378 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.797 seconds
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.534 seconds
-Domain Reload Profiling: 1330ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  0.528 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (530ms)
-		LoadAssemblies (396ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (366ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (193ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (534ms)
+	FinalizeReload (528ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (374ms)
+		SetupLoadedEditorAssemblies (366ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3547.
-Memory consumption went from 118.7 MB to 118.7 MB.
-Total: 4.435900 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.306800 ms MarkObjects: 3.649100 ms  DeleteObjects: 0.102100 ms)
+Unloading 31 unused Assets / (56.8 KB). Loaded Objects now: 3547.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 3.634900 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.380900 ms MarkObjects: 2.744000 ms  DeleteObjects: 0.104700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 198346.938207 seconds.
-  path: Assets/Enemy/Enemy.prefab
-  artifactKey: Guid(3cc86e6b84c38954c8b22aaf9ccd45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Enemy.prefab using Guid(3cc86e6b84c38954c8b22aaf9ccd45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246e61697e31d153842495c9ca5e8af9') in 0.119812 seconds
+  Time since last request: 198921.405147 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '612ade45603a206d395feb0892d236bb') in 0.096744 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tlie/Tlie_Road_Corner90.prefab
+  artifactKey: Guid(79ce8c0063db93f42b48d15b4dde577c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tlie/Tlie_Road_Corner90.prefab using Guid(79ce8c0063db93f42b48d15b4dde577c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e029f96e0edfcd56b7531f72b81184') in 0.107836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '546e7037aefdc5bdeff2b0b7599c31d6') in 0.089960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Wall_In.obj
+  artifactKey: Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Wall_In.obj using Guid(e06f55a4e9f0e954d8cfa9474c972880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f06db9c85a877f8aa4c83b38630831e') in 0.069794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Road_Corner.mtl
+  artifactKey: Guid(62361d3025ac9fc49b5b43a686bc074d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Road_Corner.mtl using Guid(62361d3025ac9fc49b5b43a686bc074d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '464d6e183cb07dc7a9a3ba801768292b') in 0.010902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Ram.obj
+  artifactKey: Guid(0eaf0955d0035664c87a3d4177a41887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Ram.obj using Guid(0eaf0955d0035664c87a3d4177a41887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '158a7c634dc468fb4cff03e0e56fb8a2') in 0.028126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Ram.png
+  artifactKey: Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Ram.png using Guid(f89231e1285b34f41a1e68d64ba7079b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d727b1cf9852f32dab0570b6040d633') in 0.022981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Prefabs/Tower_Straight.prefab
+  artifactKey: Guid(d37bc1d66713c1342bc827d9143c768e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Prefabs/Tower_Straight.prefab using Guid(d37bc1d66713c1342bc827d9143c768e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '736426e7c043874f9632949ff8e086ff') in 0.018296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Prefabs/Tree_Large.prefab
+  artifactKey: Guid(e087f990d0ffa4f4c9f7dcf9b9f96eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Prefabs/Tree_Large.prefab using Guid(e087f990d0ffa4f4c9f7dcf9b9f96eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '877dfc315075aefad2f11a027ec8720a') in 0.016968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Ballisa_Top.obj
+  artifactKey: Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Ballisa_Top.obj using Guid(18cfa8e197c1ff74292ed6ff0cc8b3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '836342118d51006c0b2303332462bf20') in 0.023799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47f6128b8f1faa1591e0f04bd298d905') in 0.010955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tree_Group.obj
+  artifactKey: Guid(15e2400a7e78e4c429ba356f5934ca5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tree_Group.obj using Guid(15e2400a7e78e4c429ba356f5934ca5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbab7680b96a7a225cf816a668d9c7a4') in 0.028742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Wall_In.mtl
+  artifactKey: Guid(8ef67f41a69c19a4baa8193e1916858b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Wall_In.mtl using Guid(8ef67f41a69c19a4baa8193e1916858b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfd38c39b8d0723cf9a19f77853ffe8c') in 0.008486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Shore_1.mtl
+  artifactKey: Guid(2065dc23d1af59d4397aedb8955c0656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Shore_1.mtl using Guid(2065dc23d1af59d4397aedb8955c0656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd70cc90d0e256d72496117e6ec00757') in 0.010848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tower_Right.obj
+  artifactKey: Guid(72a69f2d17306c241a28b11da95f8885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tower_Right.obj using Guid(72a69f2d17306c241a28b11da95f8885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47533d14100ea1c47fa1098ab435ffd0') in 0.032429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Prefabs/Road_Straight.prefab
+  artifactKey: Guid(516bafc615be66c4ab287e43b2c75817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Prefabs/Road_Straight.prefab using Guid(516bafc615be66c4ab287e43b2c75817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6380b1218998d670967874b49be964d') in 0.020059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '375f3db6326d6779cc5ea242129332bf') in 0.016457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f87794771d25e0c8f23cb6e4830f9a88') in 0.011263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Ballisa_Base.png
+  artifactKey: Guid(f7d44a55e98043e4d8cea381547ff757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Ballisa_Base.png using Guid(f7d44a55e98043e4d8cea381547ff757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a77d673aa6f675dd15508d3433e443ec') in 0.027547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tower_Right.mtl
+  artifactKey: Guid(5cb29070ecd68244aa24d897388bf9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tower_Right.mtl using Guid(5cb29070ecd68244aa24d897388bf9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1638f34f653e4a82193b48ba54bdddab') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Water_Open.obj
+  artifactKey: Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Water_Open.obj using Guid(a847eae99d42cdf49b01d8ca9f52e595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f604435c7151b14a6e68f5335f5e2bd') in 0.029207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Ballisa_Base.mtl
+  artifactKey: Guid(08f4f1e260e1ac64e853d51077f03ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Ballisa_Base.mtl using Guid(08f4f1e260e1ac64e853d51077f03ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71fc8b6e4b0f0b6c47d4ce4b4dd11478') in 0.009469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Gate_2.mtl
+  artifactKey: Guid(ce8baa6aa162c674ea203ff9421586b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Gate_2.mtl using Guid(ce8baa6aa162c674ea203ff9421586b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c700a12649bb259113c9bf6f904d595e') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tower_Straight.mtl
+  artifactKey: Guid(8c265a5bd6cae4c4895e50ef1418602a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tower_Straight.mtl using Guid(8c265a5bd6cae4c4895e50ef1418602a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b415c6c4aa1b1196ce087d6c77578e2') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Gate_2.obj
+  artifactKey: Guid(a592389a4cc504149996122820b6be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Gate_2.obj using Guid(a592389a4cc504149996122820b6be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '781fad634394a5914266126246da8d43') in 0.023953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Gate_1.mtl
+  artifactKey: Guid(5a7dfb9f10e63004fb7612c94d35759f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Gate_1.mtl using Guid(5a7dfb9f10e63004fb7612c94d35759f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eaf6bffcfc6099ac4b8867f1d0805cb') in 0.010046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tree_Large.png
+  artifactKey: Guid(1c85421df3697a743925dbaff78a7643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tree_Large.png using Guid(1c85421df3697a743925dbaff78a7643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f047e5c96cacae882945f6b8402198fa') in 0.023601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Grass.obj
+  artifactKey: Guid(5076ba01f21af0c4daff73ab13dba476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Grass.obj using Guid(5076ba01f21af0c4daff73ab13dba476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aaecd0b0a03b8722238a014dbf687d2') in 0.028619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tower_Straight.obj
+  artifactKey: Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tower_Straight.obj using Guid(e7a14cf0c8f8c7f48b1a463cab3cfba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b427d5b219538959770b6438b1b73448') in 0.029339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Tower_Standing.mtl
+  artifactKey: Guid(b6fea74b98b020c4ca1ee906ff8da650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Tower_Standing.mtl using Guid(b6fea74b98b020c4ca1ee906ff8da650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222075df76abe28bf2625cbb2fc68ef8') in 0.010949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Wall_In.png
+  artifactKey: Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Wall_In.png using Guid(f713d06f23fb03f409a902a4f8fed1b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2c0a497e562590a8ef239934c7ce744') in 0.024962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetPacks/VoxelCastle/Models/Bolt.png
+  artifactKey: Guid(f168fa85f7662a84abd6633f70987ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/VoxelCastle/Models/Bolt.png using Guid(f168fa85f7662a84abd6633f70987ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5be98257dbc5b23e6907dfef05cb0716') in 0.024694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004966 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ece7af279a6f63cb6a8037defd5e63a8') in 0.029497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetPacks/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fa98555a6a4ccbc89a9e9ed7610f669') in 0.045388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.440 seconds
-Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1317ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (219ms)
-		LoadAssemblies (290ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (878ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (351ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (249ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3558.
-Memory consumption went from 118.7 MB to 118.7 MB.
-Total: 3.316800 ms (FindLiveObjects: 0.351300 ms CreateObjectMapping: 0.338400 ms MarkObjects: 2.479100 ms  DeleteObjects: 0.146900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.425 seconds
-Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.869 seconds
-Domain Reload Profiling: 1293ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (869ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (345ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3561.
-Memory consumption went from 119.0 MB to 119.0 MB.
-Total: 3.158200 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.277100 ms MarkObjects: 2.539200 ms  DeleteObjects: 0.059900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.435 seconds
-Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.845 seconds
-Domain Reload Profiling: 1278ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (191ms)
-		LoadAssemblies (257ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (845ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (350ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3564.
-Memory consumption went from 119.0 MB to 119.0 MB.
-Total: 3.074400 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.237400 ms MarkObjects: 2.486800 ms  DeleteObjects: 0.075400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gn01792218\OneDrive\桌面\我的專案\sideProject\unit專案\Realm Rush\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.420 seconds
-Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.866 seconds
-Domain Reload Profiling: 1286ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (195ms)
-		LoadAssemblies (256ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (867ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (360ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3567.
-Memory consumption went from 119.0 MB to 119.0 MB.
-Total: 3.298600 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.277200 ms MarkObjects: 2.681500 ms  DeleteObjects: 0.055000 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3547.
+Memory consumption went from 67.6 MB to 67.6 MB.
+Total: 4.518100 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.214100 ms MarkObjects: 3.999900 ms  DeleteObjects: 0.027100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
