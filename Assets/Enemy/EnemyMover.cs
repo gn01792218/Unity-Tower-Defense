@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
 {
-    [SerializeField] List<WayPoint> movePaths = new List<WayPoint>(); //儲存移動路徑的所有座標點
+    [SerializeField] List<Tlie> movePaths = new List<Tlie>(); //儲存移動路徑的所有座標點
     [SerializeField] [Range(0,5)] float moveSpeed = 1f; //移動的速度，只能介於0~5
     void Start()
     {
@@ -13,7 +13,7 @@ public class EnemyMover : MonoBehaviour
 
     IEnumerator FollowPath()
     {
-        foreach (WayPoint wayPoint in movePaths)
+        foreach (Tlie wayPoint in movePaths)
         {
             Vector3 startPosition = transform.position;  //移動起點
             Vector3 endPosition = wayPoint.transform.position;  //移動終點

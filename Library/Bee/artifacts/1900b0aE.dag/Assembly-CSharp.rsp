@@ -355,7 +355,7 @@
 "Assets/Enemy/Enemy.cs"
 "Assets/Enemy/EnemyMover.cs"
 "Assets/Tlie/CoordinateLabeler.cs"
-"Assets/Tlie/WayPoint.cs"
+"Assets/Tlie/Tlie.cs"
 "Assets/Tower/Tower.cs"
 -langversion:9.0
 

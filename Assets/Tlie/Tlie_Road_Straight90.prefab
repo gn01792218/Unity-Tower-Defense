@@ -28,6 +28,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6591430923216142595, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.013883919
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591430923216142595, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.013883919
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591430923216142595, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591430923216142595, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278453498
+      objectReference: {fileID: 0}
     - target: {fileID: 6808168166434442635, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -46,15 +62,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6808168166434442635, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6808168166434442635, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6808168166434442635, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6808168166434442635, guid: a5ee12541f1af5e48a95dfcba7b6d09c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

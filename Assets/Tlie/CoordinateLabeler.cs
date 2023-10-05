@@ -5,20 +5,52 @@ using TMPro; //引用Text Pro 物件
 [ExecuteAlways]  //標示此腳本會在edit mode 和 play mode中執行
 public class CoordinateLabeler : MonoBehaviour
 {
+    [SerializeField] Color defaultLabelColor = Color.white;
+    [SerializeField] Color blockedLabelColor = Color.red;
     TextMeshPro label;  //座標渲染文字標籤
     Vector2Int coordinates = new Vector2Int(); //棋盤格的座標 ( 雖是3D，但棋盤格只會使用到平面座標系統 )
+    Tlie tlie;
     void Awake() //遊戲執行時的最初生命週期
     {
+        tlie = GetComponentInParent<Tlie>(); //獲取父層的Tlie物件
         label = GetComponent<TextMeshPro>(); //獲取label屬性
         RenderCoordinates(); //初始化渲染每個方塊的座標
+        if (Application.isPlaying)
+        {
+            label.enabled = false; // 預設下不開啟Label
+        }
     }
     void Update()
     {
-        if(!Application.isPlaying)
+        ToogleColorListener();
+        if (Application.isPlaying)
         {
-            // 以下代碼 只會於 Edit mode 執行
+            ToogleLabelListener(); //監聽是否開啟Label
+        }
+        else
+        { // 以下代碼 只會於 Edit mode 執行
             RenderCoordinates(); //渲染當下座標
             RenderPartentName(); //更改父層物件名稱，方便於Edit mode中察看!
+        }
+    }
+
+    private void ToogleColorListener()
+    {
+        if (tlie.IsPlaceable)
+        {
+            label.color = defaultLabelColor;
+        }
+        else
+        {
+            label.color = blockedLabelColor;
+        }
+    }
+
+    void ToogleLabelListener()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            label.enabled = !label.IsActive();
         }
     }
 

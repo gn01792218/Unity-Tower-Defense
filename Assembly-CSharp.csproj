@@ -43,8 +43,8 @@
      <Compile Include="Assets\Enemy\Enemy.cs" />
      <Compile Include="Assets\Tlie\CoordinateLabeler.cs" />
      <Compile Include="Assets\Tower\Tower.cs" />
-     <Compile Include="Assets\Tlie\WayPoint.cs" />
      <Compile Include="Assets\Enemy\EnemyMover.cs" />
+     <Compile Include="Assets\Tlie\Tlie.cs" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
