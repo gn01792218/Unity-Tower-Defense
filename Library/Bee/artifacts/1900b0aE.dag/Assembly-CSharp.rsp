@@ -354,6 +354,7 @@
 -analyzer:"D:/Program Files/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Enemy/Enemy.cs"
 "Assets/Enemy/EnemyMover.cs"
+"Assets/Enemy/EnemyObjectPool.cs"
 "Assets/Tlie/CoordinateLabeler.cs"
 "Assets/Tlie/Tile.cs"
 "Assets/Tower/Tower.cs"

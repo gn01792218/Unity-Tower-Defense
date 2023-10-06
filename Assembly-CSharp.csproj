@@ -43,6 +43,7 @@
      <Compile Include="Assets\Enemy\Enemy.cs" />
      <Compile Include="Assets\Tlie\CoordinateLabeler.cs" />
      <Compile Include="Assets\Tower\Tower.cs" />
+     <Compile Include="Assets\Enemy\EnemyObjectPool.cs" />
      <Compile Include="Assets\Enemy\EnemyMover.cs" />
      <Compile Include="Assets\Tlie\Tile.cs" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMPro.cginc" />
