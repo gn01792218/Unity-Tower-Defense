@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 3192137185520029853, guid: 471cd9bba18404f4dbb08bb02122e3c7, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3817494812388286333, guid: 471cd9bba18404f4dbb08bb02122e3c7, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -82,11 +86,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8482353142988066337, guid: 471cd9bba18404f4dbb08bb02122e3c7, type: 3}
       propertyPath: m_fontColor.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8482353142988066337, guid: 471cd9bba18404f4dbb08bb02122e3c7, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 4278190335
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1178245494448728824, guid: 471cd9bba18404f4dbb08bb02122e3c7, type: 3}

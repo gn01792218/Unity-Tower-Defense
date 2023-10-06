@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8121485866676290217}
-  - component: {fileID: -7602173716417707323}
   - component: {fileID: 5818663343388680081}
+  - component: {fileID: 3192137185520029853}
   m_Layer: 0
   m_Name: Tlie
   m_TagString: Untagged
@@ -35,20 +35,6 @@ Transform:
   - {fileID: 4860783195465989684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7602173716417707323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5366551423824254208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27a9ac253b3f08040a8799596a6ab2da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPlaceable: 1
-  Tower: {fileID: 6185851927204139692, guid: baced6b9b14b1884aaec37be8ff835b8, type: 3}
 --- !u!65 &5818663343388680081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70,6 +56,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 1, z: 10}
   m_Center: {x: 0, y: -0.5, z: 0}
+--- !u!114 &3192137185520029853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366551423824254208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e45eb4ae16c3944d9fb77fe3c987aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlaceable: 1
+  tower: {fileID: 6185851927204139692, guid: baced6b9b14b1884aaec37be8ff835b8, type: 3}
 --- !u!1 &7105404144704353548
 GameObject:
   m_ObjectHideFlags: 0

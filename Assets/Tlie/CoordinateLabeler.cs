@@ -9,10 +9,10 @@ public class CoordinateLabeler : MonoBehaviour
     [SerializeField] Color blockedLabelColor = Color.red;
     TextMeshPro label;  //座標渲染文字標籤
     Vector2Int coordinates = new Vector2Int(); //棋盤格的座標 ( 雖是3D，但棋盤格只會使用到平面座標系統 )
-    Tlie tlie;
+    Tile tile;
     void Awake() //遊戲執行時的最初生命週期
     {
-        tlie = GetComponentInParent<Tlie>(); //獲取父層的Tlie物件
+        tile = GetComponentInParent<Tile>(); //獲取父層的Tlie物件
         label = GetComponent<TextMeshPro>(); //獲取label屬性
         RenderCoordinates(); //初始化渲染每個方塊的座標
         if (Application.isPlaying)
@@ -36,7 +36,7 @@ public class CoordinateLabeler : MonoBehaviour
 
     private void ToogleColorListener()
     {
-        if (tlie.IsPlaceable)
+        if (tile.IsPlaceable)
         {
             label.color = defaultLabelColor;
         }
